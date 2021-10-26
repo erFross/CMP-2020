@@ -1,4 +1,3 @@
-//TEST
 // Complex.h
 // header file of the Complex class
 
