@@ -1,4 +1,4 @@
-//// Complex.h
+// Complex.h
 // header file of the Complex class
 
 #ifndef Complex_h // if Complex_h is not defined,
