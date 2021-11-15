@@ -39,7 +39,7 @@ int main(){
   cout<<"f2: "<<f2<<endl;
   Vector3D g1=Vector3D::Cylindrical(1,M_PI/2,0);
   cout<<"g1: "<<g1<<endl;
-  cout<<"sin(M_PI/2): "<<sin(M_PI/2)<<", cos(M_PI/2): "<<cos(M_PI/2)<<endl;
+  cout<<"sin(M_PI/2): "<<fixed<<sin(M_PI/2)<<", cos(M_PI/2): "<<cos(M_PI/2)<<endl;
 
   //PURTROPPO cos(M_PI/2)=6.12323e-17  e non 0 ecco perchè stampa spesso quel numero, questo penso sia dovuto al fatto che M_PI è definito con poche cifre significative, grande mancanza di rispetto a mio avviso.
   return 0;
